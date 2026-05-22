@@ -1,10 +1,8 @@
 import sqlite3
 
-# Connect to or create the database file
 conn = sqlite3.connect('travelmate.db')
 cursor = conn.cursor()
 
-# Create tables
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS tourists (
     id INTEGER PRIMARY KEY AUTOINCREMENT,

@@ -1,0 +1,44 @@
+{
+    "tourists": [
+        {
+            "user_id": 101,
+            "name": "Alice Smith",
+            "email": "alice@example.com",
+            "nationality": "British",
+            "preferences": ["Museums", "Hiking"],
+            "current_itinerary": ["Louvre Museum", "Eiffel Tower"],
+            "budget_status": "Mid-Range",
+            "membership": "Gold"
+        },
+        {
+            "user_id": 102,
+            "name": "Hiroshi Tanaka",
+            "email": "hiro@example.com",
+            "nationality": "Japanese",
+            "preferences": ["Fine Dining", "Art Galleries"],
+            "current_itinerary": ["Michelin Star Tour"],
+            "budget_status": "Premium",
+            "membership": "Silver"
+        }
+    ],
+    "drivers": [
+        {
+            "user_id": 501,
+            "name": "Carlos Gomez",
+            "email": "carlos.g@taxi.com",
+            "license_id": "TX-9982",
+            "vehicle": "Tesla Model Y (Electric)",
+            "rating": 4.9,
+            "is_available": true
+        },
+        {
+            "user_id": 502,
+            "name": "Sarah Chen",
+            "email": "schen@drive.io",
+            "license_id": "TX-4451",
+            "vehicle": "Mercedes V-Class (Van)",
+            "rating": 4.7,
+            "is_available": false
+        }
+    ]
+}
